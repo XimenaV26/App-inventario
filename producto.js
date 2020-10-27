@@ -1,4 +1,4 @@
-class Producto{
+export default class Producto{
     constructor(codigo,nombre, descripcion, cantidad, costo){
 
         this.codigo = codigo;
@@ -6,10 +6,11 @@ class Producto{
         this.descripcion = descripcion;
         this.cantidad = cantidad;
         this.costo = costo; 
+    
     }
 
-    agregar(){
-        
+    descripcion(){
+        return `${this.codigo} -- ${this.nombre} $ ${this.costo} cantidad: ${this.cantidad}`
     }
 
 
