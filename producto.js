@@ -17,6 +17,4 @@ export default class Producto{
         return this.codigo
     }
 
-
-
 }

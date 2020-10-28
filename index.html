@@ -1,10 +1,13 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title>App de inventario</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>App de inventario</title>
+</head>
     <body>
-        <form method="POST" action="productos.js">
+        <form method="POST" action="inventario.js">
             <h1>App de inventario</h1>
             <input id="codigo" type="text" name="Codigo" placeholder="Código del producto">
             <br>
@@ -21,7 +24,7 @@
             <br>
             <input id="borrarCode" type="number" name="borrar" placeholder="Borrar producto por código">
             <br>
-            <button id="idBotonBorrar" name="borrarProduct">Borrar</button>
+            <input type="button" id="btnBorrar" name="borra producto" value="Borrar"/>
             <br>
             <br>
             <input id="buscarCode" type="number" name="buscarP" placeholder="Buscar producto por código">
@@ -37,7 +40,6 @@
             <ul id="listaForm02"></ul>
 
         </form>
+        <script src="inventario.js"  type="module"></script>
     </body>
-
-    <script src="main.js"  type="module"></script>
 </html>
