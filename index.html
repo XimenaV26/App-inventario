@@ -8,31 +8,33 @@
             <h1>App de inventario</h1>
             <input id="codigo" type="text" name="Codigo" placeholder="Código del producto">
             <br>
-            <input type="text" name="nombre" placeholder="Nombre del producto">
+            <input id="name" type="text" name="nombre" placeholder="Nombre del producto">
             <br>
-            <input type="text" name="descrpcion" placeholder="Descripcion del producto">
+            <input id="descrip" type="text" name="descrpcion" placeholder="Descripcion del producto">
             <br>
-            <input type="number" name="cantidad" placeholder="Cantidad">
+            <input id="cantidad" type="number" name="cantidad" placeholder="Cantidad">
             <br>
-            <input type="number" name="costo" placeholder="Costo">
+            <input id="costo" type="number" name="costo" placeholder="Costo">
             <br>
-            <button id="idbotonAgregar" name="agregarProduct">Agregar</button>
+            <input type="button" id="btnAgregar" name="agregarProducto" value="Agregar"/>
             <br>
             <br>
-            <input type="number" name="borrar" placeholder="Borrar producto por código">
+            <input id="borrarCode" type="number" name="borrar" placeholder="Borrar producto por código">
             <br>
             <button id="idBotonBorrar" name="borrarProduct">Borrar</button>
             <br>
             <br>
-            <input type="number" name="buscarP" placeholder="Buscar producto por código">
+            <input id="buscarCode" type="number" name="buscarP" placeholder="Buscar producto por código">
             <br>
-            <button id="IdbotonBuscar" name="buscarProduct">Buscar</button>
-            <br>
-            <br>
-            <button id="IdbotonRecuperar" name="recuperar">Recuperar los productos</button>
+            <input type="button" id="btnBuscar" name="buscarProducto" value="buscar"/>
             <br>
             <br>
-            <button id="IdbotonRinverso" name="recuperarInverso">Recuperar productos inverso</button>
+            <input type="button" id="btnRecuperar" name="recuperarProducto" value="Recuperar los productos"/>
+            <ul id="listaForm"></ul>
+            <br>
+            <br>
+            <input type="button" id="btnRecuperarI" name="recuperarInverso" value="Recuperar los productos Inverso"/>
+            <ul id="listaForm02"></ul>
 
         </form>
     </body>
