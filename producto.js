@@ -13,7 +13,7 @@ export default class Producto{
         return `${this.codigo} -- ${this.nombre} $ ${this.costo} cantidad: ${this.cantidad}`
     }
 
-    codigo(){
+    setCodigo(){
         return this.codigo
     }
 
